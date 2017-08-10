@@ -34,7 +34,7 @@ public class crudProjectTest {
     public void crudProjectCountsInstancesCorrectly() throws Exception {
         crudProject cake = customCake();
         crudProject cake2 = customCake2();
-        assertEquals(1, crudProject.getAllCakes().size());
+        assertEquals(2, crudProject.getAllCakes().size());
     }
 
 }
