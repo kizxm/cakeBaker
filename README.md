@@ -7,7 +7,7 @@
 ## Description
 
 _This application allows for a user to enter input into a form and then later be able to edit it. It uses java to switch between pages._
-![Alt text](https://www.bbcgoodfood.com/sites/default/files/styles/category_retina/public/recipe-collections/collection-image/2013/05/rosewater-raspberry-sponge-cake.jpg)
+![Alt text](/screenshot.png) 
 
 ## Setup/Installation Requirements
 
