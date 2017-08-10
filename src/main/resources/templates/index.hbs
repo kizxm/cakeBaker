@@ -1,0 +1,32 @@
+{{#partial "content"}}
+
+    {{#if allCakes}}
+
+        {{#each allCakes}} <!--loop-->
+
+        <h3>Type of Cake:</h3><p><br> {{cakes}}</p>
+
+
+        <h3>Type of Sprinkles:</h3><p><br> {{sprinkles}}</p>
+
+
+        <h3>Type of Frosting:</h3><p><br> {{frosting}}</p>
+
+
+        <h3>Type of Filling:</h3><p><br> {{filling}}</p>
+
+        <br><p><a href="/cakes/{{id}}"> read more...</a></p>
+        <br>
+        <p>-------------------------------</p>
+
+
+
+
+        {{/each}}
+    {{else}}
+        <p>No Cakes made!</p>
+    {{/if}}
+{{/partial}}
+
+
+{{> layout.hbs}}
