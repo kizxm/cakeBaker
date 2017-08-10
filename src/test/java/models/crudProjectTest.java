@@ -36,6 +36,17 @@ public class crudProjectTest {
         crudProject cake2 = customCake2();
         assertEquals(2, crudProject.getAllCakes().size());
     }
+    @Test
+    public void updateChangesPostContent() throws Exception {
+        crudProject cake = customCake();
+        String formerContent = cake.getCakes();
+        int formerId = cake.getId();
+
+        cake.update("Chocolate", "Rainbow", "yellow", "none");
+
+        assertEquals(formerId, cake.getId());
+        assertNotEquals(formerContent, cake.getCakes());
+    }
 
 
 
