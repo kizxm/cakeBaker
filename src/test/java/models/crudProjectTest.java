@@ -18,12 +18,23 @@ public class crudProjectTest {
 
     @Test
     public void instantiatesCorrectly() throws Exception {
-        crudProject project = new crudProject("cake");
+        crudProject project = new crudProject("cake", "something");
         assertEquals(true, project instanceof crudProject);
     }
 
-    public crudProject cakeProject(){
-        return new crudProject("cake")
+    public crudProject customCake(){
+        return new crudProject("cake", "rainbow");
+    }
+    public crudProject customCake2(){
+        return new crudProject("choco", "pink only");
+    }
+
+
+    @Test
+    public void crudProjectCountsInstancesCorrectly() throws Exception {
+        crudProject cake = customCake();
+        crudProject cake2 = customCake2();
+        assertEquals(1, crudProject.getAllCakes().size());
     }
 
 }
