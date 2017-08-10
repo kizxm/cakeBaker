@@ -8,6 +8,8 @@ public class crudProject {
     private String sprinkles;
 
 
+    private int id;
+
 
     private String frosting;
     private String filling;
@@ -19,14 +21,18 @@ public class crudProject {
         this.frosting = frosting;
         this.filling = filling;
         allCakes.add(this);
+        this.id = allCakes.size();
     }
 
     public static void clearAllCakes() {
         allCakes.clear();
     }
+    public static crudProject findById(int id){
+        return allCakes.get(id-1);
+    }
 
 
-//Getter
+    //Getter
     public String getCakes() {
         return cakes;
     }
@@ -43,6 +49,15 @@ public class crudProject {
 
     public String getFilling() {
         return filling;
+    }
+    public int getId() {
+        return id;
+    }
+    public void update(String cakes, String sprinkles, String frosting, String filling) {
+        this.cakes = cakes;
+        this.sprinkles = sprinkles;
+        this.frosting = frosting;
+        this.filling = filling;
     }
 
 }

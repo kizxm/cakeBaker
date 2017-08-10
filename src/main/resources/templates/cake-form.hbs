@@ -1,8 +1,31 @@
 {{#partial "content"}}
 
-        <h1>Add a new cake</h1>
 
-        <form action="/cakes/new" method="post">
+        {{#if editCakes}}
+            <h1>Edit this Cake!</h1>
+            <form action="/cakes/{{editCakes.id}}/update" method="post">
+                <div class="form-control">
+                    <label for="cakes">Cake Type:</label>
+                    <input id="cakes" name="cakes" type="text" value="{{editCakes.cakes}}">
+                </div>
+                <div class="form-control">
+                    <label for="sprinkles">Sprinkle Type:</label>
+                    <input id="sprinkles" name="sprinkles" type="text" value="{{editCakes.sprinkles}}">
+                </div>
+                <div class="form-control">
+                    <label for="frosting">Frosting Type:</label>
+                    <input id="frosting" name="frosting" type="text" value="{{editCakes.frosting}}">
+                </div>
+                <div class="form-control">
+                    <label for="filling">Filling Type:</label>
+                    <input id="filling" name="filling" type="text" value="{{editCakes.filling}}">
+                </div>
+                <button type="submit" class="btn btn-default">Edit Cake</button>
+            </form>
+        {{else}}
+
+            <h1>Add a new cake</h1>
+            <form action="/cakes/new" method="post">
             <div class="form-control">
             <label for="cakes">Cake Type:</label>
             <input id="cakes" name="cakes" type="text">
@@ -18,9 +41,12 @@
             <div class="form-control">
             <label for="filling">Filling Type:</label>
             <input id="filling" name="filling" type="text">
+
             </div>
-        <button type="submit" class="btn btn-default">Add new cake!</button>
-    </form>
+                <button type="submit" class="btn btn-default">Add new cake!</button>
+        {{/if}}
+
+         </form>
 
 
 {{/partial}}

@@ -46,7 +46,33 @@ public class App {
                    return new ModelAndView(model, "index.hbs");
                 }, new HandlebarsTemplateEngine());
 
+        get("/cakes/:id", (req, res) -> {
+            Map<String, Object> model = new HashMap<>();
+            int idOfCakeToFind = Integer.parseInt(req.params("id"));
+            crudProject cakesMade = crudProject.findById(idOfCakeToFind);
+            model.put("cakes", cakesMade);
+            return new ModelAndView(model, "cake-details.hbs");
+        }, new HandlebarsTemplateEngine());
 
+        get("/cakes/:id/update", (req, res) -> {
+            Map<String, Object> model = new HashMap<>();
+            int idOfPostToEdit = Integer.parseInt(req.params("id"));
+            crudProject editCakes = crudProject.findById(idOfPostToEdit);
+            model.put("editCakes", editCakes);
+            return new ModelAndView(model, "cake-form.hbs");
+        }, new HandlebarsTemplateEngine());
+
+        post("/cakes/:id/update", (req, res) -> {
+            Map<String, Object> model = new HashMap<>();
+            String cakes = req.queryParams("cakes");
+            String sprinkles = req.queryParams("sprinkles");
+            String frosting = req.queryParams("frosting");
+            String filling = req.queryParams("filling");
+            int idOfPostToEdit = Integer.parseInt(req.params("id"));
+            crudProject editCakes = crudProject.findById(idOfPostToEdit);
+            editCakes.update(cakes, sprinkles, frosting, filling);
+            return new ModelAndView(model, "index.hbs");
+        }, new HandlebarsTemplateEngine());
 
     }
 }

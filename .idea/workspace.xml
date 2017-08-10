@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="933f4578-4550-4a5e-86d2-7f9764e9e8a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/public/images/smallCake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/public/images/strawberryCake.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/App.java" afterPath="$PROJECT_DIR$/src/main/java/App.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/crudProject.java" afterPath="$PROJECT_DIR$/src/main/java/models/crudProject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/models/crudProjectTest.java" afterPath="$PROJECT_DIR$/src/test/java/models/crudProjectTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/cake-form.hbs" afterPath="$PROJECT_DIR$/src/main/resources/templates/cake-form.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,8 +35,8 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="177">
+              <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#420#436#0" expanded="true" />
@@ -50,21 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cake-form.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cake-form.hbs">
+      <file leaf-file-name="cake-details.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cake-details.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/app.css">
+      <file leaf-file-name="cake-form.hbs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cake-form.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="49">
+              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -73,38 +69,26 @@
       <file leaf-file-name="crudProject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/crudProject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="417">
+              <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
               <folding>
-                <element signature="e#256#269#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crudProjectTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/models/crudProjectTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#277#290#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#876#877#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="180">
+              <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -139,6 +123,11 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>places</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -500,16 +489,17 @@
         <option value="$PROJECT_DIR$/src/test/java/models/crudProjectTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/public/app.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" />
-        <option value="$PROJECT_DIR$/src/main/java/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/models/crudProject.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/cake-form.hbs" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.hbs" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/cake-details.hbs" />
+        <option value="$PROJECT_DIR$/src/main/java/models/crudProject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/cake-form.hbs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="196" />
+    <option name="x" value="130" />
+    <option name="y" value="320" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -1024,7 +1014,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="196" width="1400" height="1000" extended-state="0" />
+    <frame x="130" y="320" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1034,7 +1024,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1087,19 +1077,23 @@
         <state relative-caret-position="75">
           <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding>
-            <element signature="e#256#269#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#277#290#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1128,25 +1122,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/models/crudProject.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sparkjava/spark-core/2.6.0/d2a6034bb3275189ba759de6fb862309f3f47c9a/spark-core-2.6.0-sources.jar!/spark/TemplateViewRoute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="e#256#269#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,26 +1135,6 @@
         <state relative-caret-position="75">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cake-form.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#420#436#0" expanded="true" />
-            <element signature="e#1624#1640#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1202,8 +1162,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="180">
+          <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/crudProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="53" column="18" lean-forward="true" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding>
+            <element signature="e#277#290#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#420#436#0" expanded="true" />
+            <element signature="e#1624#1640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cake-details.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cake-form.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding />
         </state>
       </provider>

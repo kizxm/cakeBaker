@@ -1,0 +1,17 @@
+{{#partial "content"}}
+    <p>Type of Cake:</p>
+    <p>{{ cakes.cakes }}</p>
+    <h5>Type of frosting:</h5>
+    <p> {{ cakes.frosting }}</p>
+    <h5>Type of sprinkles:</h5>
+    <p> {{ cakes.sprinkles }}</p>
+    <h5>Type of filling:</h5>
+    <p> {{ cakes.filling }}</p>
+
+        <a href="/cakes/{{cakes.id}}/update">Edit this cake</a>
+
+
+{{/partial}}
+
+{{> layout.hbs}}
+
